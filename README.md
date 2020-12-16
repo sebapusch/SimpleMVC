@@ -29,6 +29,11 @@ php -S 0.0.0.0:8080 -t public
 You can see the application at the following url: [http://localhost:8080](http://localhost:8080).
 
 
+Install on Apache
+
+.htaccess file is included to redirect requests to index.php file inside public directory.
+
+
 ## Routing system
 
 The routing system uses a PHP configuration file as follows ([config/route.php](config/route.php)):
