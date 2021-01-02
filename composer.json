@@ -1,5 +1,5 @@
 {
-    "name": "ezimuel/simple-mvc",
+    "name": "sebapusch/simple-mvc",
     "type": "project",
     "description": "Simple MVC micro framework",
     "keywords": [
@@ -9,7 +9,7 @@
     ],
     "license": "Apache-2.0",
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.4",
         "league/plates": "^3.3",
         "php-di/php-di": "^6.0",
         "nikic/fast-route": "^1.3",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SimpleMVC\\": "src/"
+            "SimpleMVC\\": ["src/", "lib/"]
         }
     },
     "autoload-dev": {
